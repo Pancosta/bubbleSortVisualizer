@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box-container {
+    display: flex;
+    margin: 20px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: 2px solid #3498db;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+input, button {
+    margin: 10px;
+}
