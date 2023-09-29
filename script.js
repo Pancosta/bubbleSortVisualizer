@@ -6,8 +6,8 @@ async function bubbleSort(arr) {
         let lastSwappedIndex = 0;
 
         for (let i = 0; i < len - 1; i++) {
-            app.children[i].style.backgroundColor = 'blue';
-            app.children[i + 1].style.backgroundColor = 'blue';
+            app.children[i].style.backgroundColor = '#F24405';
+            app.children[i + 1].style.backgroundColor = '#F24405';
 
             await new Promise(resolve => setTimeout(resolve, 1000));
 
@@ -18,25 +18,25 @@ async function bubbleSort(arr) {
 
                 app.children[i].textContent = arr[i];
                 app.children[i + 1].textContent = arr[i + 1];
-                app.children[i].style.backgroundColor = 'yellow';
-                app.children[i + 1].style.backgroundColor = 'red';
+                app.children[i].style.backgroundColor = '#049DD9';
+                app.children[i + 1].style.backgroundColor = '#76BF2C';
                 swapped = true;
                 lastSwappedIndex = i;
             } else {
-                app.children[i].style.backgroundColor = 'yellow';
-                app.children[i + 1].style.backgroundColor = 'red';
+                app.children[i].style.backgroundColor = '#049DD9';
+                app.children[i + 1].style.backgroundColor = '#76BF2C';
             }
         }
         
         for (let i = len - 1; i > lastSwappedIndex; i--) {
-            app.children[i].style.backgroundColor = 'red';
+            app.children[i].style.backgroundColor = '#76BF2C';
         }
         
         len = lastSwappedIndex + 1;
     } while (swapped);
     
     for (let i = 0; i < arr.length; i++) {
-        app.children[i].style.backgroundColor = 'green';
+        app.children[i].style.backgroundColor = '#ADB8BD';
     }
 }
 
