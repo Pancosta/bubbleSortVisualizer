@@ -23,4 +23,5 @@ O projeto "Bubble Sort Visualizer" é uma aplicação que demonstra visualmente 
 
 
 
-![bubblesortvisualizer](https://github.com/Pancosta/bubblesortvisualizer/assets/25846267/3c685c7b-e3bf-4cec-bd55-f6a743e73650)
+
+![BubbleSortVisualizer ](https://github.com/Pancosta/bubbleSortVisualizer/assets/25846267/c20acd00-0844-4068-8864-996f20206b95)
